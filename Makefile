@@ -1,5 +1,5 @@
 doc:baiduDoc.cpp
-	g++ -g -lcurl baiduDoc.cpp -o doc
+	g++ -g baiduDoc.cpp -lcurl -o doc
 
 clean:
 	rm -rf doc
